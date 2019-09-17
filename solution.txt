@@ -1,0 +1,6 @@
+Commands used
+cat crimescene | grep "CLUE" > clues1.txt 
+cat streets/Hart_Place | head -40 | tail -1
+cat people |grep "Annabel" > annabel.txt 
+sed -n '/Plate L337WR9/,/Plate/p' vehicles  (not efficient...)
+cat delta.txt| grep "Jacqui"
